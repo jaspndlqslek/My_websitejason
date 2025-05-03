@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>파일 업로드 예시</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<body>
+  <h1>사진 업로드 예시</h1>
+  <p>아래 버튼을 눌러서 사진을 선택하고 웹사이트에 업로드해보세요.</p>
+
+  <!-- 파일 업로드 버튼 -->
+  <input type="file" id="fileInput" accept="image/*" />
+  <br><br>
+
+  <!-- 업로드된 이미지 미리보기 -->
+  <div id="imagePreview"></div>
+
+  <!-- 다운로드 버튼 (이미지가 업로드된 후에 활성화됨) -->
+  <a id="downloadButton" href="#" download style="display:none;">이미지 다운로드</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
